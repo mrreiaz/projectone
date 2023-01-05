@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #FD6E0A;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px;
+    padding: 20px 35px;
+}
+
+
+/* header and navigation style */
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px;
+    padding-top: 52px;
+}
+
+.nav-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    color: #181818;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+
+.nav-ul li button {}
+
+/* banner */
+
+.banner {
+    display: flex;
+    margin: 0 230px;
+    align-items: center;
+}
+
+
+.banner-text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+
+.banner-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.btn-contact {
+    height: 64px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 0px;
+    padding: 20px 35px;
+    background: transparent;
+    border: 2px solid #FD6E0A;
+
+}
